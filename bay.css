@@ -20,4 +20,9 @@ body {
   .meme {
     width: 80%;
   }
+
+  .form {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
