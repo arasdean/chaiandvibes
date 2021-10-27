@@ -6,7 +6,18 @@ body {
   display: flex;
   padding: 0;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
   width: 100%;
+}
+
+.meme {
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  .meme {
+    width: 80%;
+  }
 }
